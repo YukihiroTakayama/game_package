@@ -22,8 +22,7 @@ module GamePackage
           puts "あなた #{convert_hand_into_string(player)}\nあいて #{convert_hand_into_string(computer)}"
           puts '-'*15
           puts ''
-          return  puts 'あなたの勝ちです'  if  jadgement == 'win'
-          return puts 'あなたの負けです' if jadgement == 'lose'
+          return jadgement if ['win', 'lose'].include?(jadgement)
           
           puts 'あいこで...'
         end
