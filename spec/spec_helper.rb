@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "game_package/janken"
+require "game_package"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

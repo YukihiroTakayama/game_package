@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    game_package (0.1.1)
+    game_package (0.1.2)
 
 GEM
   remote: https://rubygems.org/

@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "game_package/sanmoku_narabe"
+
+result = GamePackage::SanmokuNarabe.start
+
+return puts 'あなたの勝ちです' if result == 'win'
+return puts 'あなたの負けです' if result == 'lose'
+
+puts '引き分けです'
